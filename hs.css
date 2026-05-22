@@ -1,0 +1,132 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: purple;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+}
+
+.header img {
+    width: 160px;
+    margin-right: 10px;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+}
+
+.sidebar {
+    width: 85px;
+    background: purple;
+    color: black;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 23px 0;
+    font-size: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    color: lightskyblue;
+}
+
+.sidebar-footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar-footer a:hover {
+    color: lightskyblue;
+}
+
+.content {
+    flex: 1;
+    padding: 55px 40px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.content h3 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.content p {
+    margin-bottom: 10px;
+}
+
+.content ul {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.content li {
+    margin-bottom: 10px;
+}
+
+.Välkommen h4 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    margin-left: 360px;
+}
+
+.Välkommen p{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 330px;
+}
+
+html{
+    background: url("img/american-public-power-association-XGAZzyLzn18-unsplash.jpg");
+    background-size: 100% 109%;
+
+}
+
+.content h4{
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 35px;
+    text-align: center;
+}
+
+.content button {
+    display: flex;
+    margin: 22px 350px;
+    width: 130px;
+}
